@@ -17,3 +17,4 @@ BraceWrapping:
   AfterControlStatement: false
   BeforeCatch: true
   BeforeElse: true
+
