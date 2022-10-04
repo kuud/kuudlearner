@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+ColumnLimit: 160
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+AllowShortFunctionsOnASingleLine: Empty
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: AlwaysBreak
+AllowAllParametersOfDeclarationOnNextLine: false
+SpaceAfterCStyleCast: true
+SpacesInParentheses: 'true'
+NamespaceIndentation: All
+TabWidth: 3
+IndentWidth: 3
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: false
+  BeforeCatch: true
+  BeforeElse: true

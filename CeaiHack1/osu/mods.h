@@ -1,0 +1,36 @@
+#pragma once
+namespace ceaihack::osu {
+    enum class mod_e : int {
+        none,
+        no_fail = 1 << 0,
+        easy = 1 << 1,
+        touch_device = 1 << 2,
+        hidden = 1 << 3,
+        hard_rock = 1 << 4,
+        sudden_death = 1 << 5,
+        double_time = 1 << 6,
+        relax = 1 << 7,
+        half_time = 1 << 8,
+        nightcore = 1 << 9,
+        flashlight = 1 << 10,
+        autoplay = 1 << 11,
+        spun_out = 1 << 12,
+        relax2 = 1 << 13,
+        perfect = 1 << 14,
+        key4 = 1 << 15,
+        key5 = 1 << 16,
+        key6 = 1 << 17,
+        key7 = 1 << 18,
+        key8 = 1 << 19,
+        fade_in = 1 << 20,
+        random = 1 << 21,
+        cinema = 1 << 22,
+        target = 1 << 23,
+        key9 = 1 << 24,
+        key_coop = 1 << 25,
+        key1 = 1 << 26,
+        key3 = 1 << 27,
+        key2 = 1 << 28,
+        scorev2 = 1 << 29
+    };
+}

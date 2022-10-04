@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CeaiHack">
+      <UniqueIdentifier>{86d43a14-5454-4511-9760-7206859ea6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{850a429b-8e9f-4bf3-aa50-bc7982418b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{6c9fc677-982b-47cb-b983-ce0153815f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Timewarp">
+      <UniqueIdentifier>{0a2613ef-3d4e-4405-a32d-3e4e91782dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aim Assist">
+      <UniqueIdentifier>{fda47e78-ac52-49d5-8f69-3038f59d1941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!">
+      <UniqueIdentifier>{104c5208-c982-451b-a808-e0bda6ec770e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\Player">
+      <UniqueIdentifier>{afa6b885-5ab1-469a-a775-23902b0952ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\GameBase">
+      <UniqueIdentifier>{1b2ff561-cba8-4ead-a486-2fd66b39f564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection">
+      <UniqueIdentifier>{3ce55d8c-d05f-4bda-b854-ce37007b1adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\Assembly">
+      <UniqueIdentifier>{c225c0bc-7d32-4bfc-8da9-3d6c5b1f17d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\SafeArray">
+      <UniqueIdentifier>{fc1cc1b0-645b-47c8-a3b7-3116e0f5d5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\AppDomain">
+      <UniqueIdentifier>{8f7a58b0-1b57-441d-a288-6713ad8b4f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\Type">
+      <UniqueIdentifier>{2c475fb0-b510-4cac-a4db-1f0d1858ef44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\Field">
+      <UniqueIdentifier>{901d85c5-48a7-4b32-9cb5-63f5114a4eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CeaiHack\Reflection\Method">
+      <UniqueIdentifier>{1b0143b0-9354-4f9f-918f-954f20182ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\Beatmap">
+      <UniqueIdentifier>{869457b2-9453-4699-85be-c3932a9f179f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\HitObjectManager">
+      <UniqueIdentifier>{bc81a1a3-db51-4ebe-b72c-fad79cabf2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\HitObject">
+      <UniqueIdentifier>{6f45d7e5-cade-4b5f-ac6f-2413a94158fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Game Modifier">
+      <UniqueIdentifier>{e7bc69d6-a301-45d2-8623-7bdee8ac319f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\Ruleset">
+      <UniqueIdentifier>{14b9a634-34b2-477f-9e3d-d1d69f6445fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\Sprite">
+      <UniqueIdentifier>{e2bce14e-8784-42db-b44a-d91198bbfebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osu!\SpriteManager">
+      <UniqueIdentifier>{4779534d-3e96-4670-89b7-f527886d7fd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CeaiHackMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ch.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_hooks.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_ui.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_ui_design.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_memory.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_timewarp.cpp">
+      <Filter>Features\Timewarp</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_auth.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_clock.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_aim_assist.cpp">
+      <Filter>Features\Aim Assist</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_logger.cpp">
+      <Filter>CeaiHack</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\player.cpp">
+      <Filter>osu!\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\game_base.cpp">
+      <Filter>osu!\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\ch_reflection.cpp">
+      <Filter>CeaiHack\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Assembly\ch_assembly.cpp">
+      <Filter>CeaiHack\Reflection\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\safe_array\ch_safe_array.cpp">
+      <Filter>CeaiHack\Reflection\SafeArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\type\ch_type.cpp">
+      <Filter>CeaiHack\Reflection\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\field\ch_field.cpp">
+      <Filter>CeaiHack\Reflection\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\method\ch_method.cpp">
+      <Filter>CeaiHack\Reflection\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="reflection\app_domain\ch_app_domain.cpp">
+      <Filter>CeaiHack\Reflection\AppDomain</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\hit_object.cpp">
+      <Filter>osu!\HitObject</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\hit_object_manager.cpp">
+      <Filter>osu!\HitObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\beatmap.cpp">
+      <Filter>osu!\Beatmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_game_modifier.cpp">
+      <Filter>Features\Game Modifier</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_unmod_fl.cpp">
+      <Filter>Features\Game Modifier</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\ruleset.cpp">
+      <Filter>osu!\Ruleset</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\sprite.cpp">
+      <Filter>osu!\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="osu\sprite_manager.cpp">
+      <Filter>osu!\SpriteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_color_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_hooks.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_hooks_vars.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_ui.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_config.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_ui_design.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_game_signature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_memory.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_timewarp.h">
+      <Filter>Features\Timewarp</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_ui_colors.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_auth.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_clock.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_aim_assist.h">
+      <Filter>Features\Aim Assist</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_logger.h">
+      <Filter>CeaiHack</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\osu.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\player.h">
+      <Filter>osu!\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\modes.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\mods.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\rulesets.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\object_type.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\osu_memory.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\game_base.h">
+      <Filter>osu!\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Assembly\ch_assembly.h">
+      <Filter>CeaiHack\Reflection\Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ch_reflection.h">
+      <Filter>CeaiHack\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\safe_array\ch_safe_array.h">
+      <Filter>CeaiHack\Reflection\SafeArray</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\type\ch_type.h">
+      <Filter>CeaiHack\Reflection\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\field\ch_field.h">
+      <Filter>CeaiHack\Reflection\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\method\ch_method.h">
+      <Filter>CeaiHack\Reflection\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\app_domain\ch_app_domain.h">
+      <Filter>CeaiHack\Reflection\AppDomain</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_memory_addy.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\beatmap.h">
+      <Filter>osu!\Beatmap</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\value_obfuscator.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\memptr_var.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\hit_object_manager.h">
+      <Filter>osu!\HitObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\memptr_list.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\hit_object.h">
+      <Filter>osu!\HitObject</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\memptr_var_obf.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\window_utils.h">
+      <Filter>osu!</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_game_modifier.h">
+      <Filter>Features\Game Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_unmod_fl.h">
+      <Filter>Features\Game Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\ruleset.h">
+      <Filter>osu!\Ruleset</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\sprite.h">
+      <Filter>osu!\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="osu\sprite_manager.h">
+      <Filter>osu!\SpriteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ch_color_logger.h" />
+  </ItemGroup>
+</Project>

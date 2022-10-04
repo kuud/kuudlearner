@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{47f7d2c9-f179-4dcb-a063-c291d1941b30}</ProjectGuid>
+    <RootNamespace>CeaiHack1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <VcpkgTriplet>x86-windows-static-md</VcpkgTriplet>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <VcpkgTriplet>x86-windows-static-md</VcpkgTriplet>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <VcpkgTriplet>x86-windows-static-md</VcpkgTriplet>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <VcpkgTriplet>x86-windows-static-md</VcpkgTriplet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CEAIHACK1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>mscoree.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CEAIHACK1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>mscoree.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;CEAIHACK1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>mscoree.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;CEAIHACK1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>mscoree.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CeaiHackMain.cpp" />
+    <ClCompile Include="ch.cpp" />
+    <ClCompile Include="ch_aim_assist.cpp" />
+    <ClCompile Include="ch_auth.cpp" />
+    <ClCompile Include="ch_clock.cpp" />
+    <ClCompile Include="ch_color_logger.cpp" />
+    <ClCompile Include="ch_game_modifier.cpp" />
+    <ClCompile Include="ch_hooks.cpp" />
+    <ClCompile Include="ch_logger.cpp" />
+    <ClCompile Include="ch_memory.cpp" />
+    <ClCompile Include="ch_timewarp.cpp" />
+    <ClCompile Include="ch_ui.cpp" />
+    <ClCompile Include="ch_ui_design.cpp" />
+    <ClCompile Include="ch_unmod_fl.cpp" />
+    <ClCompile Include="imgui_impl_opengl3.cpp" />
+    <ClCompile Include="imgui_impl_win32.cpp" />
+    <ClCompile Include="osu\beatmap.cpp" />
+    <ClCompile Include="osu\game_base.cpp" />
+    <ClCompile Include="osu\hit_object.cpp" />
+    <ClCompile Include="osu\hit_object_manager.cpp" />
+    <ClCompile Include="osu\player.cpp" />
+    <ClCompile Include="osu\sprite.cpp" />
+    <ClCompile Include="osu\ruleset.cpp" />
+    <ClCompile Include="osu\sprite_manager.cpp" />
+    <ClCompile Include="reflection\app_domain\ch_app_domain.cpp" />
+    <ClCompile Include="reflection\assembly\ch_assembly.cpp" />
+    <ClCompile Include="reflection\ch_reflection.cpp" />
+    <ClCompile Include="reflection\field\ch_field.cpp" />
+    <ClCompile Include="reflection\method\ch_method.cpp" />
+    <ClCompile Include="reflection\safe_array\ch_safe_array.cpp" />
+    <ClCompile Include="reflection\type\ch_type.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch.h" />
+    <ClInclude Include="ch_aim_assist.h" />
+    <ClInclude Include="ch_auth.h" />
+    <ClInclude Include="ch_clock.h" />
+    <ClInclude Include="ch_color_logger.h" />
+    <ClInclude Include="ch_config.h" />
+    <ClInclude Include="ch_game_modifier.h" />
+    <ClInclude Include="ch_game_signature.h" />
+    <ClInclude Include="ch_hooks.h" />
+    <ClInclude Include="ch_hooks_vars.h" />
+    <ClInclude Include="ch_logger.h" />
+    <ClInclude Include="ch_memory.h" />
+    <ClInclude Include="ch_memory_addy.h" />
+    <ClInclude Include="ch_timewarp.h" />
+    <ClInclude Include="ch_ui.h" />
+    <ClInclude Include="ch_ui_colors.h" />
+    <ClInclude Include="ch_ui_design.h" />
+    <ClInclude Include="ch_unmod_fl.h" />
+    <ClInclude Include="imgui_impl_opengl3.h" />
+    <ClInclude Include="imgui_impl_win32.h" />
+    <ClInclude Include="osu\beatmap.h" />
+    <ClInclude Include="osu\game_base.h" />
+    <ClInclude Include="osu\hit_object.h" />
+    <ClInclude Include="osu\hit_object_manager.h" />
+    <ClInclude Include="osu\memptr_list.h" />
+    <ClInclude Include="osu\memptr_var.h" />
+    <ClInclude Include="osu\memptr_var_obf.h" />
+    <ClInclude Include="osu\mods.h" />
+    <ClInclude Include="osu\object_type.h" />
+    <ClInclude Include="osu\osu.h" />
+    <ClInclude Include="osu\osu_memory.h" />
+    <ClInclude Include="osu\player.h" />
+    <ClInclude Include="osu\modes.h" />
+    <ClInclude Include="osu\sprite.h" />
+    <ClInclude Include="osu\ruleset.h" />
+    <ClInclude Include="osu\rulesets.h" />
+    <ClInclude Include="osu\sprite_manager.h" />
+    <ClInclude Include="osu\value_obfuscator.h" />
+    <ClInclude Include="osu\window_utils.h" />
+    <ClInclude Include="reflection\app_domain\ch_app_domain.h" />
+    <ClInclude Include="reflection\assembly\ch_assembly.h" />
+    <ClInclude Include="reflection\ch_reflection.h" />
+    <ClInclude Include="reflection\field\ch_field.h" />
+    <ClInclude Include="reflection\method\ch_method.h" />
+    <ClInclude Include="reflection\safe_array\ch_safe_array.h" />
+    <ClInclude Include="reflection\type\ch_type.h" />
+    <ClInclude Include="vector2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
