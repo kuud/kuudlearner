@@ -35,6 +35,10 @@ Basically, the COM Wrapper allows the anticheat or cheat to communicate with the
 
 <br />
 
+### IMPORTANT NOTE FOR THE MAINTAINER
+
+I've been notified by my friend, x_k0tori, of this repo, and he would want to talk to you. Please add him over discord at x_k0tori#0996 and have a small talk. THANK YOU!
+
 ___
 
 #### End Notes 
