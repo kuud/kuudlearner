@@ -1,21 +1,21 @@
 <img src="CeaiHack1/assets/kuudd.png" align="right" width="128" height="128" />
 
 # kuudlearner  ![Release](https://img.shields.io/github/v/release/kuud/kuudlearner?style=flat-square) ![Language](https://img.shields.io/badge/language-C++-hotpink?style=flat-square)
-*Originally created by **x_k0tori**. Maintained by **kuud** until September 2022*
+*Idea and prototype originally created by **x_k0tori**. Maintained by **kuud** until February 2023*
 <br />
 
-**kuudlearner** is a repository housing an integrated version of **CeaiHack**. \
+**kuudlearner** is a repository housing an integrated version of **CHack**. \
 This is a fully functional osu! cheat, which has now been released to help others learn how easy it is to 'hack' on osu!
 
 <br />
 
 
-## CeaiHack - The Cheat     ![osu!Bancho](https://img.shields.io/badge/%20-Detected-red)
+## kuudlearner - The Cheat     ![osu!Bancho](https://img.shields.io/badge/%20-Detected-red)
 A powerful and efficient osu! cheat which aims to bring your gameplay to a new level. 
 
 
 
-- **Aim Assist** (integrated megumin shit AA)
+- **Aim Assist** (integrated megumi AA)
 - FL Remover
 - CS & AR Modifier 
 - Timewarp
