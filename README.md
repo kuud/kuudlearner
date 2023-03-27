@@ -1,7 +1,7 @@
 <img src="CeaiHack1/assets/kuudd.png" align="right" width="128" height="128" />
 
 # kuudlearner  ![Release](https://img.shields.io/github/v/release/kuud/kuudlearner?style=flat-square) ![Language](https://img.shields.io/badge/language-C++-hotpink?style=flat-square)
-*Idea and prototype originally created by **x_k0tori**. Maintained by **kuud** until February 2023*
+*Prototyped by **x_k0tori**. Continued by **kuud** until February 2023*
 <br />
 
 **kuudlearner** is a repository housing an integrated version of **CHack**. \
